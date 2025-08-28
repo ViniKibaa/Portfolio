@@ -5,48 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portfólio - José Vinicius</title>
   <style>
+    /* Reset básico */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f4f4f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
       color: #333;
       line-height: 1.6;
     }
     header {
-      background: #222;
-      color: #fff;
-      padding: 2rem 1rem;
+      background: linear-gradient(135deg, #4f46e5, #3b82f6);
+      color: white;
+      padding: 3rem 1rem;
       text-align: center;
     }
-    header h1 { margin: 0; font-size: 2rem; }
-    header p { margin-top: 0.5rem; color: #bbb; }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #e0e7ff;
+    }
     section {
-      max-width: 800px;
+      max-width: 900px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
     h2 {
-      border-bottom: 2px solid #222;
-      padding-bottom: 0.5rem;
+      font-size: 1.8rem;
       margin-bottom: 1rem;
+      color: #1e3a8a;
+      border-left: 5px solid #3b82f6;
+      padding-left: 0.5rem;
     }
     .card {
-      background: #fff;
-      padding: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      margin-bottom: 1rem;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s;
     }
+    .card:hover { transform: translateY(-5px); }
     a {
-      color: #0077cc;
+      color: #2563eb;
       text-decoration: none;
+      font-weight: 500;
     }
     a:hover { text-decoration: underline; }
+    ul { list-style: none; margin-top: 0.5rem; }
+    ul li { margin-bottom: 0.5rem; }
     footer {
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
-      color: #777;
+      color: #666;
+      background: #e2e8f0;
+      margin-top: 2rem;
     }
   </style>
 </head>
@@ -71,17 +87,17 @@
     <div class="card">
       <h3>Cadastramento para ODS 7</h3>
       <p>Sistema desenvolvido para contribuir com os objetivos de energia acessível e limpa.</p>
-      <a href="https://github.com/ViniKibaa/Claudiany" target="_blank">Ver no GitHub</a>
+      <a href="https://github.com/ViniKibaa/Claudiany" target="_blank">🔗 Ver no GitHub</a>
     </div>
   </section>
 
   <section>
     <h2>Contato</h2>
     <ul>
-      <li><strong>Telefone:</strong> <a href="tel:+5581986730922">(81) 98673-0922</a></li>
-      <li><strong>Email:</strong> <a href="mailto:vinikiba223@gmail.com">vinikiba223@gmail.com</a></li>
-      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jos%C3%A9-vinicius-069925306" target="_blank">José Vinicius</a></li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/ViniKibaa" target="_blank">@ViniKibaa</a></li>
+      <li><strong>📞 Telefone:</strong> <a href="tel:+5581986730922">(81) 98673-0922</a></li>
+      <li><strong>📧 Email:</strong> <a href="mailto:vinikiba223@gmail.com">vinikiba223@gmail.com</a></li>
+      <li><strong>💼 LinkedIn:</strong> <a href="https://www.linkedin.com/in/jos%C3%A9-vinicius-069925306" target="_blank">José Vinicius</a></li>
+      <li><strong>💻 GitHub:</strong> <a href="https://github.com/ViniKibaa" target="_blank">@ViniKibaa</a></li>
     </ul>
   </section>
 
