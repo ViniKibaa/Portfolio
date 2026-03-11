@@ -5,33 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portfólio - José Vinicius</title>
   <style>
-    /* Reset básico */
     * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #f5f7fa;
       color: #333;
       line-height: 1.6;
     }
+
     header {
       background: linear-gradient(135deg, #4f46e5, #3b82f6);
       color: white;
       padding: 3rem 1rem;
       text-align: center;
     }
+
     header h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
+
     header p {
       font-size: 1.2rem;
       color: #e0e7ff;
     }
+
     section {
       max-width: 900px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
+
     h2 {
       font-size: 1.8rem;
       margin-bottom: 1rem;
@@ -39,6 +44,7 @@
       border-left: 5px solid #3b82f6;
       padding-left: 0.5rem;
     }
+
     .card {
       background: white;
       padding: 1.5rem;
@@ -47,15 +53,30 @@
       margin-bottom: 1.5rem;
       transition: transform 0.2s;
     }
-    .card:hover { transform: translateY(-5px); }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
     a {
       color: #2563eb;
       text-decoration: none;
       font-weight: 500;
     }
-    a:hover { text-decoration: underline; }
-    ul { list-style: none; margin-top: 0.5rem; }
-    ul li { margin-bottom: 0.5rem; }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 0.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
     footer {
       text-align: center;
       padding: 1rem;
@@ -66,54 +87,93 @@
     }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>José Vinicius Pereira de Oliveira</h1>
-    <p>Estudante de Ciência da Computação (4º período) | Desenvolvedor em busca de oportunidades</p>
-  </header>
 
-  <section>
-    <h2>Sobre mim</h2>
+<header>
+  <h1>José Vinicius Pereira de Oliveira</h1>
+  <p>Estudante de Ciência da Computação (4º período) | Desenvolvedor em busca de oportunidades</p>
+</header>
+
+<section>
+  <h2>Sobre mim</h2>
+  <p>
+    Sou estudante de <strong>Ciência da Computação</strong>, atualmente no <strong>4º período</strong>,
+    apaixonado por tecnologia e em busca de oportunidades para aplicar minhas habilidades em programação.
+    Tenho interesse em atuar no desenvolvimento de software e contribuir com soluções que gerem impacto positivo.
+  </p>
+</section>
+
+<section>
+  <h2>Projetos</h2>
+
+  <div class="card">
+    <h3>App de Cadastramento - ODS 7 (Energia Acessível e Limpa)</h3>
     <p>
-      Sou estudante de <strong>Ciência da Computação</strong>, atualmente no <strong>4º período</strong>, 
-      apaixonado por tecnologia e em busca de oportunidades para aplicar minhas habilidades em programação. 
-      Tenho interesse em atuar no desenvolvimento de software e contribuir com soluções que gerem impacto positivo. 
+      Projeto desenvolvido durante o curso de Ciência da Computação, com foco nos Objetivos de Desenvolvimento
+      Sustentável da ONU (ODS 7).
+      O trabalho consistiu na criação de um <strong>aplicativo de cadastramento</strong> para auxiliar na organização
+      e registro de dados relacionados à energia limpa e acessível.
     </p>
-  </section>
 
-  <section>
-    <h2>Projetos</h2>
-    <div class="card">
-      <h3>App de Cadastramento - ODS 7 (Energia Acessível e Limpa)</h3>
-      <p>
-        Projeto desenvolvido durante o curso de Ciência da Computação, com foco nos Objetivos de Desenvolvimento Sustentável da ONU (ODS 7).
-        O trabalho consistiu na criação de um <strong>aplicativo de cadastramento</strong> para auxiliar na organização e registro de dados relacionados
-        à energia limpa e acessível.  
-      </p>
-      <p>
-        O objetivo foi exercitar conceitos de desenvolvimento de software, boas práticas de programação e ao mesmo tempo contribuir com 
-        uma temática relevante para a sociedade.
-      </p>
-      <a href="https://github.com/ViniKibaa/Claudiany" target="_blank">🔗 Ver no GitHub</a>
-    </div>
-  </section>
+    <p>
+      O objetivo foi exercitar conceitos de desenvolvimento de software, boas práticas de programação
+      e ao mesmo tempo contribuir com uma temática relevante para a sociedade.
+    </p>
 
-  <section>
-    <h2>Contato</h2>
+    <a href="https://github.com/ViniKibaa/Claudiany" target="_blank">
+      🔗 Ver no GitHub
+    </a>
+  </div>
+
+  <div class="card">
+    <h3>Jogo 2D - Projeto Acadêmico</h3>
+
+    <p>
+      Desenvolvimento de um <strong>jogo 2D</strong> criado como projeto prático para aplicar conceitos
+      de lógica de programação e desenvolvimento de jogos.
+    </p>
+
+    <p>
+      O projeto envolve mecânicas básicas de gameplay, movimentação de personagens,
+      interação com elementos do cenário e organização da estrutura do jogo.
+    </p>
+
+    <p><strong>Habilidades aplicadas:</strong></p>
+
     <ul>
-      <li><strong>📞 Telefone:</strong> <a href="tel:+5581986730922">(81) 98673-0922</a></li>
-      <li><strong>📧 Email:</strong> <a href="mailto:vinikiba223@gmail.com">vinikiba223@gmail.com</a></li>
-      <li><strong>💼 LinkedIn:</strong> <a href="https://www.linkedin.com/in/jos%C3%A9-vinicius-069925306" target="_blank">José Vinicius</a></li>
-      <li><strong>💻 GitHub:</strong> <a href="https://github.com/ViniKibaa" target="_blank">@ViniKibaa</a></li>
+      <li>🎮 Lógica de programação</li>
+      <li>🎮 Movimentação de personagens</li>
+      <li>🎮 Estruturação de projeto</li>
+      <li>🎮 Desenvolvimento de mecânicas de gameplay</li>
     </ul>
-  </section>
 
-  <footer>
-    © <span id="year"></span> José Vinicius Pereira de Oliveira
-  </footer>
+    <a href="https://github.com/ViniKibaa/Jogo-2D-Josivan" target="_blank">
+      🎮 Ver projeto no GitHub
+    </a>
+  </div>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+</section>
+
+<section>
+  <h2>Contato</h2>
+
+  <ul>
+    <li><strong>📞 Telefone:</strong> <a href="tel:+5581986730922">(81) 98673-0922</a></li>
+    <li><strong>📧 Email:</strong> <a href="mailto:vinikiba223@gmail.com">vinikiba223@gmail.com</a></li>
+    <li><strong>💼 LinkedIn:</strong> <a href="https://www.linkedin.com/in/jos%C3%A9-vinicius-069925306" target="_blank">José Vinicius</a></li>
+    <li><strong>💻 GitHub:</strong> <a href="https://github.com/ViniKibaa" target="_blank">@ViniKibaa</a></li>
+  </ul>
+
+</section>
+
+<footer>
+  © <span id="year"></span> José Vinicius Pereira de Oliveira
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
