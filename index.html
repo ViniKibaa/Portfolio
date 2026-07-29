@@ -1,179 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfólio - José Vinicius</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f7fa;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(135deg, #4f46e5, #3b82f6);
-      color: white;
-      padding: 3rem 1rem;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      color: #e0e7ff;
-    }
-
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      color: #1e3a8a;
-      border-left: 5px solid #3b82f6;
-      padding-left: 0.5rem;
-    }
-
-    .card {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      margin-bottom: 1.5rem;
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    a {
-      color: #2563eb;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    ul {
-      list-style: none;
-      margin-top: 0.5rem;
-    }
-
-    ul li {
-      margin-bottom: 0.5rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #666;
-      background: #e2e8f0;
-      margin-top: 2rem;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>José Vinicius — Portfólio</title>
+<meta name="description" content="Portfólio de José Vinicius Pereira de Oliveira, estudante de Ciência da Computação em busca de estágio." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-  <h1>José Vinicius Pereira de Oliveira</h1>
-  <p>Estudante de Ciência da Computação (5º período) | Desenvolvedor em busca de oportunidades</p>
+<div class="scanline" aria-hidden="true"></div>
+<div class="glow glow--1" aria-hidden="true"></div>
+<div class="glow glow--2" aria-hidden="true"></div>
+<div class="glow glow--3" aria-hidden="true"></div>
+<div class="glow glow--4" aria-hidden="true"></div>
+
+<header class="hero">
+  <div class="hero__inner">
+    <p class="terminal" id="terminal" aria-live="polite"></p>
+    <h1 class="hero__name">José Vinicius <span>Pereira de Oliveira</span></h1>
+    <p class="hero__role">Estudante de Ciência da Computação · 6º período</p>
+    <p class="hero__pitch">Construo coisas do front ao banco de dados — e às vezes um bot que organiza times de Pokémon. Procurando meu primeiro estágio em desenvolvimento.</p>
+    <div class="hero__links">
+      <a class="btn btn--solid" href="mailto:vinikiba223@gmail.com">Falar comigo</a>
+      <a class="btn btn--ghost" href="https://github.com/ViniKibaa" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
 </header>
 
-<section>
-  <h2>Sobre mim</h2>
-  <p>
-    Sou estudante de <strong>Ciência da Computação</strong>, atualmente no <strong>5º período</strong>,
-    apaixonado por tecnologia e em busca de oportunidades para aplicar minhas habilidades em programação.
-    Tenho interesse em atuar no desenvolvimento de software e contribuir com soluções que gerem impacto positivo.
-  </p>
-</section>
+<main>
 
-<section>
-  <h2>Projetos</h2>
-
-  <div class="card">
-    <h3>App de Cadastramento - ODS 7 (Energia Acessível e Limpa)</h3>
-    <p>
-      Projeto desenvolvido durante o curso de Ciência da Computação, com foco nos Objetivos de Desenvolvimento
-      Sustentável da ONU (ODS 7).
-      O trabalho consistiu na criação de um <strong>aplicativo de cadastramento</strong> para auxiliar na organização
-      e registro de dados relacionados à energia limpa e acessível.
+  <section class="section" id="sobre">
+    <p class="eyebrow">// sobre</p>
+    <p class="about-text">
+      Sou estudante de <strong>Ciência da Computação</strong> na Uninassau Paulista, com previsão de conclusão em
+      <strong>dezembro de 2027</strong>. Gosto de entender um problema até o fim antes de sair escrevendo código —
+      seja num sistema web, num joguinho 2D ou numa automação boba que economiza meu tempo.
+      Estou em busca de uma oportunidade de <strong>estágio em desenvolvimento</strong> para aprender com quem já
+      viveu isso na prática.
     </p>
+  </section>
 
-    <p>
-      O objetivo foi exercitar conceitos de desenvolvimento de software, boas práticas de programação
-      e ao mesmo tempo contribuir com uma temática relevante para a sociedade.
-    </p>
+  <section class="section" id="skills">
+    <p class="eyebrow">// stack</p>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Linguagens</h3>
+        <ul class="tag-list">
+          <li class="tag">Python</li>
+          <li class="tag">JavaScript</li>
+          <li class="tag">C#</li>
+          <li class="tag">HTML5</li>
+          <li class="tag">CSS3</li>
+          <li class="tag">SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Frameworks &amp; ferramentas</h3>
+        <ul class="tag-list">
+          <li class="tag">Django</li>
+          <li class="tag">Unity</li>
+          <li class="tag">Git &amp; GitHub</li>
+          <li class="tag">APIs RESTful</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Dados</h3>
+        <ul class="tag-list">
+          <li class="tag">SQLite</li>
+          <li class="tag">MySQL</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <a href="https://github.com/ViniKibaa/Claudiany" target="_blank">
-      🔗 Ver no GitHub
-    </a>
-  </div>
+  <section class="section" id="projetos">
+    <p class="eyebrow">// projetos</p>
 
-  <div class="card">
-    <h3>Jogo 2D - Projeto Acadêmico</h3>
+    <div class="repo-card" style="--dot:#a970ff">
+      <div class="repo-card__head">
+        <h3><a href="https://github.com/ViniKibaa/pokemon-team-manager" target="_blank" rel="noopener">pokemon-team-manager</a></h3>
+        <span class="status status--active">em desenvolvimento</span>
+      </div>
+      <p>Extrai, processa e organiza times a partir de links do PokéPaste, automatizando a importação para o Pokémon Showdown.</p>
+      <div class="repo-card__foot">
+        <span class="lang"><i class="lang-dot" style="--dot:#563d7c"></i>CSS</span>
+        <a class="repo-link" href="https://github.com/ViniKibaa/pokemon-team-manager" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+    </div>
 
-    <p>
-      Desenvolvimento de um <strong>jogo 2D</strong> criado como projeto prático para aplicar conceitos
-      de lógica de programação e desenvolvimento de jogos.
-    </p>
+    <div class="repo-card" style="--dot:#f1e05a">
+      <div class="repo-card__head">
+        <h3><a href="https://github.com/ViniKibaa/Projeto-ODS-7" target="_blank" rel="noopener">Projeto-ODS-7</a></h3>
+        <span class="status">acadêmico</span>
+      </div>
+      <p>Aplicativo de cadastramento voltado ao ODS 7 da ONU (Energia Acessível e Limpa), para organizar registros de dados de energia limpa.</p>
+      <div class="repo-card__foot">
+        <span class="lang"><i class="lang-dot" style="--dot:#f1e05a"></i>JavaScript</span>
+        <a class="repo-link" href="https://github.com/ViniKibaa/Projeto-ODS-7" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+    </div>
 
-    <p>
-      O projeto envolve mecânicas básicas de gameplay, movimentação de personagens,
-      interação com elementos do cenário e organização da estrutura do jogo.
-    </p>
+    <div class="repo-card" style="--dot:#4fb3ff">
+      <div class="repo-card__head">
+        <h3><a href="https://github.com/ViniKibaa/Jogo-2D-Josivan" target="_blank" rel="noopener">Jogo-2D-Josivan</a></h3>
+        <span class="status">acadêmico</span>
+      </div>
+      <p>Jogo 2D construído para praticar lógica de programação: movimentação de personagem, interação com cenário e mecânicas básicas de gameplay.</p>
+      <div class="repo-card__foot">
+        <span class="lang"><i class="lang-dot" style="--dot:#aaaaaa"></i>ShaderLab</span>
+        <a class="repo-link" href="https://github.com/ViniKibaa/Jogo-2D-Josivan" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+    </div>
 
-    <p><strong>Habilidades aplicadas:</strong></p>
+    <div class="repo-card" style="--dot:#2ee6c3">
+      <div class="repo-card__head">
+        <h3><a href="https://github.com/ViniKibaa/Josivan-Runner-main" target="_blank" rel="noopener">Josivan-Runner-main</a></h3>
+        <span class="status">acadêmico</span>
+      </div>
+      <p>Jogo estilo runner feito em Unity/C#, explorando controle de personagem e progressão de dificuldade.</p>
+      <div class="repo-card__foot">
+        <span class="lang"><i class="lang-dot" style="--dot:#178600"></i>C#</span>
+        <a class="repo-link" href="https://github.com/ViniKibaa/Josivan-Runner-main" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+    </div>
 
-    <ul>
-      <li>🎮 Lógica de programação</li>
-      <li>🎮 Movimentação de personagens</li>
-      <li>🎮 Estruturação de projeto</li>
-      <li>🎮 Desenvolvimento de mecânicas de gameplay</li>
+    <div class="repo-card" style="--dot:#ff5fa8">
+      <div class="repo-card__head">
+        <h3><a href="https://github.com/ViniKibaa/UrbanWatch" target="_blank" rel="noopener">UrbanWatch</a></h3>
+        <span class="status">acadêmico</span>
+      </div>
+      <p>Projeto em Python voltado à organização e ao monitoramento de dados urbanos.</p>
+      <div class="repo-card__foot">
+        <span class="lang"><i class="lang-dot" style="--dot:#3572A5"></i>Python</span>
+        <a class="repo-link" href="https://github.com/ViniKibaa/UrbanWatch" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section" id="formacao">
+    <p class="eyebrow">// formação</p>
+    <div class="edu-card">
+      <h3>Bacharelado em Ciência da Computação</h3>
+      <p>Uninassau Paulista · 6º período · previsão de conclusão em dez/2027</p>
+    </div>
+    <ul class="course-list">
+      <li><strong>Informática Geral</strong> — Escola Evolução (200h): pacote Office, redes, manutenção e sistemas operacionais</li>
+      <li><strong>Inteligência Artificial</strong> — Koru &amp; Grupo Boticário: projeto prático com foco em soluções baseadas em IA</li>
+      <li><strong>Pacote Office avançado</strong></li>
+      <li><strong>Inglês avançado</strong> — leitura e compreensão de textos avançados</li>
     </ul>
+  </section>
 
-    <a href="https://github.com/ViniKibaa/Jogo-2D-Josivan" target="_blank">
-      🎮 Ver projeto no GitHub
-    </a>
-  </div>
+  <section class="section" id="contato">
+    <p class="eyebrow">// contato</p>
+    <ul class="contact-list">
+      <li><a href="mailto:vinikiba223@gmail.com">vinikiba223@gmail.com</a></li>
+      <li><a href="tel:+5581986730922">(81) 98673-0922</a></li>
+      <li><a href="https://www.linkedin.com/in/jos%C3%A9-vinicius-069925306" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+      <li><a href="https://github.com/ViniKibaa" target="_blank" rel="noopener">GitHub ↗</a></li>
+    </ul>
+  </section>
 
-</section>
+</main>
 
-<section>
-  <h2>Contato</h2>
-
-  <ul>
-    <li><strong>📞 Telefone:</strong> <a href="tel:+5581986730922">(81) 98673-0922</a></li>
-    <li><strong>📧 Email:</strong> <a href="mailto:vinikiba223@gmail.com">vinikiba223@gmail.com</a></li>
-    <li><strong>💼 LinkedIn:</strong> <a href="https://www.linkedin.com/in/jos%C3%A9-vinicius-069925306" target="_blank">José Vinicius</a></li>
-    <li><strong>💻 GitHub:</strong> <a href="https://github.com/ViniKibaa" target="_blank">@ViniKibaa</a></li>
-  </ul>
-
-</section>
-
-<footer>
-  © <span id="year"></span> José Vinicius Pereira de Oliveira
+<footer class="statusbar">
+  <span class="statusbar__item">status: <b class="ok">disponível para estágio</b></span>
+  <span class="statusbar__item" id="clock"></span>
+  <span class="statusbar__item">© <span id="year"></span> José Vinicius</span>
 </footer>
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
