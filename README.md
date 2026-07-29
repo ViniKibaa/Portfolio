@@ -2,7 +2,7 @@
 
 Site pessoal para apresentar quem eu sou, minhas skills e os projetos que venho construindo enquanto curso Ciência da Computação.
 
-🔗 **Acesse online:** [vinikibaa.github.io](https://vinikibaa.github.io)
+🔗 **Acesse online:** [vinikibaa.github.io]([https://vinikibaa.github.io](https://vinikibaa.github.io/Portfolio/))
 
 ## Sobre
 
